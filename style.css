@@ -16,7 +16,7 @@
     background-color: #0056b3;
 }
 
-#img{
+#img {
 
     background-image: url("imagenfundo/praia.jpg");
     background-repeat: no-repeat;
@@ -27,13 +27,13 @@
     height: 100vh;
 }
 
-body{
+body {
 
     margin: 0;
 
 }
 
-#titulo{
+#titulo {
 
 
 
@@ -41,4 +41,3 @@ body{
 
 
 }
-
