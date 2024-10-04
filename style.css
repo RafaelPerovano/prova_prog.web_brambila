@@ -16,9 +16,8 @@
     background-color: #0056b3;
 }
 
-body {
+#imgfu {
 
-    background-image: url(./imagenfundo/praia.jpg);
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
