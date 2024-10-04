@@ -107,3 +107,51 @@ Explore novos horizontes com a [Nome da Agência] e descubra o prazer de viajar 
     
 </body>
 </html>
+
+
+
+
+
+((((((((((((((((((((((CSSS)
+.destinos {
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    text-align: center;
+}
+
+.destinos2 {
+    margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+    text-align: center;
+}
+
+.galeria {
+    display: flex; /* Usa flexbox para alinhar as imagens */
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza as imagens */
+    gap: 20px; /* Espaçamento maior entre as imagens */
+}
+
+.imagem {
+    width: 300px; /* Largura da imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+    overflow: hidden; /* Para garantir que as bordas arredondadas funcionem */
+    border: 2px solid #ccc; /* Borda de 2px cinza */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para um efeito de profundidade */
+    transition: transform 0.2s; /* Transição suave para o efeito de movimento */
+}
+
+.imagem:hover {
+    transform: scale(1.05); /* Aumenta a imagem em 5% ao passar o mouse */
+}
+
+.imagem img {
+    width: 100%; /* Imagem ocupa toda a largura do contêiner */
+    height: 300px; /* Altura fixa para a imagem */
+    object-fit: cover; /* Cobre o contêiner sem distorcer a imagem */
+}
+
+figcaption {
+    text-align: center; /* Centraliza o texto da descrição */
+    margin-top: 10px; /* Espaçamento acima da descrição */
+    font-size: 14px; /* Tamanho da fonte da descrição */
+    color: #333; /* Cor do texto da descrição */
+}
