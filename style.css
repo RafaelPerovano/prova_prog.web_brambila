@@ -15,8 +15,13 @@
     background-color: #0056b3; 
 }
 
-{
 
-    #imgini
+ #imgini /* imagem da pag inicial*/
+{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;    
 
 }
