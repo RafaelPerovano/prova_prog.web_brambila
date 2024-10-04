@@ -18,7 +18,7 @@
 
 #imgfu {
 
-    background-image: url(./imagenfundo/praia.jpg);
+    background-image: url("imagenfundo/praia.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
