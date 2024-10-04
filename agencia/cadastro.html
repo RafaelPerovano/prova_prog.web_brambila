@@ -7,7 +7,7 @@
 <body>
     <header></header>
     <h1>Primeiro vamos fazer seu cadastro!</h1>
-    <form action="data.php" method="post">
+    <form action="" method="post">
         <fieldset>
             <legend>Dados pessoais</legend>
             <label for="nome">Nome:</label>
@@ -19,30 +19,10 @@
             <label for="confsenha">Confirmar senha:</label>
             <input type="password" name="confsenha" id="confsenha">
             <label for="cpf">cpf:</label>
-            <input type="text" name="nome" id="nome">
-            <label for="acima17">Acima 17</label>
-            <input type="radio" name="idade" id="menorigual17" value="menorigual17">
-            <label for="menorigual17">Abaixo ou igual 17</label>
+            <input type="text" name="cpf" id="cpf">
         </fieldset>
-        <fieldset>
-            <legend>2 Perfil</legend>
-            <label for="desc">Descrição:</label>
-            <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
-            <label for="perfiltrab">Perfil trabalho:</label>
-            <select name="perfiltrab" id="perfiltrab">
-                <option value="frontend">Front-End Developer</option>
-                <option value="backend">Back-End Developer</option>
-                <option value="fullstack">Full-Stack Developer</option>
-            </select>
-            <p>Interesses:</p>
-            <input type="checkbox" name="prog" id="prog" value="prog">
-            <label for="prog">Programador</label>
-            <input type="checkbox" name="design" id="design" value="design">
-            <label for="design">Design</label>
-            <input type="checkbox" name="analista" id="analista" value="analista">
-            <label for="analista">Analista</label>
-        </fieldset>
-        <input type="submit" value="Enviar dados">
     </form>
+    <input type="submit" value="Enviar dados">
+    <a href="agencia\orcamento" class="botao">Prosseguir</a>
 </body>
 </html>
