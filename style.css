@@ -16,7 +16,7 @@
 }
 
 
- #imgini /* imagem da pag inicial*/
+ .imgini /* imagem da pag inicial*/
 {
     background-image: url(./imagemfundo/praia.jpg);
     background-repeat: no-repeat;
