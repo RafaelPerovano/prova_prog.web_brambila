@@ -16,7 +16,7 @@
 }
 
 
- .imgini /* imagem da pag inicial*/
+ #imgini /* imagem da pag inicial*/
 {
     background-image: url(./imagens\ de\ fundo/);
     background-repeat: no-repeat;
