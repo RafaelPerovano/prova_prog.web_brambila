@@ -18,7 +18,7 @@
 
  #imgini /* imagem da pag inicial*/
 {
-    background-image: url(./imagens);
+    background-image: url(./imagemfundo/praia.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
