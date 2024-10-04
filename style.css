@@ -2,26 +2,28 @@
 .botao {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF; 
-    color: white; 
+    background-color: #007BFF;
+    color: white;
     text-align: center;
-    text-decoration: none; 
+    text-decoration: none;
     border-radius: 5px;
-    font-size: 16px; 
-    transition: background-color 0.3s; 
+    font-size: 16px;
+    transition: background-color 0.3s;
 }
+
 /*Coisa especifica da pagina de agencia*/
 .botao:hover {
-    background-color: #0056b3; 
+    background-color: #0056b3;
 }
 
+body {
 
- .imgini /* imagem da pag inicial*/
-{
-    background-image: url(./imagemfundo/praia.jpg);
+    background-image: url(./imagenfundo/praia.jpg);
+    width: 100vw;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;    
+    background-size: cover;
 
 }
